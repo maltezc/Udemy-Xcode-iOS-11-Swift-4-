@@ -8,6 +8,10 @@
 
 import UIKit
 
+var randomDiceIndex1 : Int = 0
+var randomDiceIndex2 : Int = 1
+
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var diceImageView1: UIImageView!
@@ -21,6 +25,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func rollButtonPressed(_ sender: Any) {
+        randomDiceIndex1 = Int(arc4random_uniform(6))
+        randomDiceIndex2 = Int(arc4random_uniform(6))
+        
+        print(randomDiceIndex1)
     }
     
 }
