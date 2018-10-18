@@ -1,0 +1,13 @@
+App Icon Dimensions
+Check out Apple's documentation on app icon dimensions and requirements.
+
+https://developer.apple.com/library/ios/qa/qa1686/_index.html
+
+If you're interested, you can read more on what makes a great app icon in Apple's Human Interface Guidelines:
+
+https://developer.apple.com/ios/human-interface-guidelines/graphics/app-icon/
+
+A Brief History of Graphics
+For the video game enthusiasts out there, this is one of my favourite videos that explain the history and evolution of computer graphics. The 40 minute video takes you from Pong to Halo 4 and details some of the greatest achievements in video game graphics. A definite must watch.
+
+https://youtu.be/QyjyWUrHsFc
