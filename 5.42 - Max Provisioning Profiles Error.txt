@@ -1,0 +1,25 @@
+5.42 - The Maximum Number of Provisioning Profiles Reached
+
+How to Solve the Error: "The Maximum Number of Provisioning Profiles Reached"
+Section 5, Lecture 42
+How to Solve the Error: "The maximum number of apps for free development profiles has been reached."
+Who is Affected By This?
+For those of you who are running your apps on a physical device and are using a free Apple account.
+
+What's the Problem?
+Apple has recently introduced a new headache for learner developers by limiting the number of apps you can side load on your physical device to 10 per week. We've been doing some testing and investigating and we've found that they've also introduced a bug with the implementation of this new rule. A lot of students and users are experiencing the error after side loading only 3 apps on to their phones. While Apple sorts out the problem from their end. We'll created a few tricks that will help you work around this issue.
+
+The Solution
+The easiest solution is to simply create a new Apple ID and go through the laborious process of adding this account into Xcode (See Section 3 in this course). This seems to allow you to side load 10 apps onto your physical device every week.
+
+If the above solution didn't work for you, or it's too time consuming then you can follow these instructions to delete some of the previous apps and ensure the current app you're working can be side loaded onto your device.
+
+1. Connect your phone to your Mac using a USB cable.
+
+2. Within Xcode with the Dicee project open, go to Window → Devices
+
+
+
+3. Select your device in the sidebar of the new window and delete "I-Am-Rich" and "I-Am-Poor". Confirm when prompted.
+
+
