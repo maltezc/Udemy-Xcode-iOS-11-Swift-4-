@@ -6,17 +6,32 @@
 //
 //}
 
-func getMilk(howManyMilkCartons: Int) {
-        print("go to the shops")
-        print("buy \(howManyMilkCartons) cartons of milk")
+//func getMilk(howManyMilkCartons: Int) {
+//        print("go to the shops")
+//        print("buy \(howManyMilkCartons) cartons of milk")
+//
+//        let priceToPay = howManyMilkCartons * 2
+//
+//        print("pay $\(priceToPay)")
+//        print("come home")
+//
+//}
+
+func getMilk(howManyMilkCartons: Int, howMuchMoneyRobotWasGiven: Int) -> Int {
+    print("go to the shops")
+    print("buy \(howManyMilkCartons) cartons of milk")
     
-        let priceToPay = howManyMilkCartons * 2
+    let priceToPay = howManyMilkCartons * 2
     
-        print("pay $\(priceToPay)")
-        print("come home")
+    print("pay $\(priceToPay)")
+    print("come home")
+    
+    let change = howMuchMoneyRobotWasGiven - priceToPay
+    
+    return change
     
 }
 
+var amountOfChange = getMilk(howManyMilkCartons: 12, howMuchMoneyRobotWasGiven: 50)
 
-
-getMilk(howManyMilkCartons: 4)
+print("hello Chris, here is your $\(amountOfChange) change")
