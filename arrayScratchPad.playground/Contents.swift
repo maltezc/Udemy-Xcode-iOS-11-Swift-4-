@@ -5,3 +5,5 @@ print(arrayTest)
 for x in arrayTest {
     print(x)
 }
+
+
