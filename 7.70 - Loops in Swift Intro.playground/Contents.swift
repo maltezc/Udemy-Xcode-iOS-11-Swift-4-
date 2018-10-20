@@ -18,7 +18,7 @@ import UIKit
 //var numberBottles
 //var song : string = "\(numberBottles) bottles of beer on the wall, \(numberBottles) bottles of beer, take one down, pass it around \(numberBottles)"
 
-
+//for number in (1...99).reversed()
 for x in stride(from: 99, to: 0, by: -1) {
     let bottle1 = x
     let bottle2 = x-1
