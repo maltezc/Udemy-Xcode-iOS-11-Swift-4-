@@ -6,4 +6,4 @@ for x in arrayTest {
     print(x)
 }
 
-
+print(arrayTest.index("car1"))
