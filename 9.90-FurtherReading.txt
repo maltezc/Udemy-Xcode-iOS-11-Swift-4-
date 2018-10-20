@@ -1,0 +1,17 @@
+Further Reading
+Section 9, Lecture 90
+
+
+Here's the documentation for the frameworks mentioned in the video, have a little look if you want to learn a bit more about why we use import Foundation or import UIKit.
+
+UIKit
+
+https://developer.apple.com/reference/uikit
+
+Foundation
+
+https://developer.apple.com/reference/foundation
+
+Swift Standard Library
+
+https://developer.apple.com/reference/swift
