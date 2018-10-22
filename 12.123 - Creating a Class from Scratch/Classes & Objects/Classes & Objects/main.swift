@@ -14,7 +14,7 @@ let mySelfDrivingCar = SelfDrivingCar()
 //let someRichGuysCar = Car(customerChosenColor: "Gold")
 
 //myCar.drive()
-
+mySelfDrivingCar.destination = "1 Hacker Way"
 mySelfDrivingCar.drive()
 //print(mySelfDrivingCar.color)
 

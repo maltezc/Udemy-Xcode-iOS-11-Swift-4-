@@ -9,9 +9,15 @@
 import Foundation
 // V how to inherit from car
 class SelfDrivingCar : Car {
-    var destination : String = "1 Infinite Loop"
+    
+    var destination : String?
+    
     override func drive() {
         super.drive()
-        print("Driving towards " + destination)
+        
+        if let userSetDestination = destination {
+            print("Driving towards " + userSetDestination)
+
+        }
     }
 }
