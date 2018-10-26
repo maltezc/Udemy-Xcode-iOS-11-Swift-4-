@@ -1,0 +1,10 @@
+how to remove "staged files"
+git rm --cached -r .
+
+to ignore files, just put the file name in the .gitisnore file
+
+use "*.txt" to ignore all text files
+
+check out the gitignore template on github
+github.com/github/gitignore
+|--> premade template for files you probably done want to upload

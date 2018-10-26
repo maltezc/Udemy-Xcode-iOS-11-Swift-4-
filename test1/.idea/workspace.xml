@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ea2006d-2d81-493d-848e-525d9e0174d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/ChatViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/ChatViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/LogInViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/LogInViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/RegisterViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash Chat/RegisterViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" beforeDir="false" afterPath="$PROJECT_DIR$/../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../9.86-Quizzler" beforeDir="false" afterPath="$PROJECT_DIR$/../9.86-Quizzler" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/test1.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.xcodeproj/xcuserdata/chrismaltez.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/test1.xcodeproj/xcuserdata/chrismaltez.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/test1/ViewController.swift" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,17 +21,27 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.open" />
-      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="323" />
           <entry key="Swift" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="swift" value="8" />
+          <entry key="txt" value="323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -52,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test1/ViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../18.230-GitIgnore.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -70,6 +82,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test1/ViewController.swift" />
+        <option value="$PROJECT_DIR$/../18.230-GitIgnore.txt" />
       </list>
     </option>
   </component>
@@ -150,12 +163,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540474085199</updated>
-      <workItem from="1540474091113" duration="1430000" />
+      <workItem from="1540474091113" duration="2104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1430000" />
+    <option name="totallyTimeSpent" value="2104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="423" height="1050" extended-state="6" />
@@ -198,6 +211,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../18.230-GitIgnore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
