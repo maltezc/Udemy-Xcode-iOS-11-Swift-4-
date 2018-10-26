@@ -74,6 +74,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		342F398121835D1B00F55B4E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F71286073B9F4800199DD38C /* test1Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +128,7 @@
 				F71288322E762D05C90F88E5 /* AppDelegate.swift */,
 				F7128FAA856C66E6EC556B68 /* Main.storyboard */,
 				F712879764DCDEADC33A9BE6 /* ViewController.swift */,
+				342F398121835D1B00F55B4E /* New Group */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -345,8 +353,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -502,6 +509,7 @@
 				F7128DD50AB5BE671A415210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F712831513279643DEE144F4 /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +518,7 @@
 				F712833E16A88BB3B9E1EA46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F712840DC68327A9CD4E1136 /* Build configuration list for PBXNativeTarget "test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +527,7 @@
 				F71288EE2EF3ABD345684A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7128BCB0A3F43B294E9518D /* Build configuration list for PBXProject "test1" */ = {
 			isa = XCConfigurationList;
