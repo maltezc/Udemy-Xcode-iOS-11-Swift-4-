@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Todo List View Controller-->
+        <!--Todoey-->
         <scene sceneID="d8w-Ig-uOt">
             <objects>
                 <tableViewController id="kGT-tK-4aj" customClass="TodoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +31,14 @@
                             <outlet property="delegate" destination="kGT-tK-4aj" id="Yhw-J9-166"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="hXG-78-8sZ"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="hXG-78-8sZ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="4am-W4-GCk">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="kGT-tK-4aj" id="SB1-xi-BZY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fqh-jG-ecF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,6 +52,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5eH-ye-I3v">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
