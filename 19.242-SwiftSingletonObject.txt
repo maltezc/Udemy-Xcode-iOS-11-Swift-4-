@@ -1,0 +1,14 @@
+
+242. [Advanced Swift] The Swift Singleton Object
+
+UserDefaults Apple Documentation:
+
+	https://developer.apple.com/documentation/foundation/userdefaults
+
+When would you use singletons?
+
+	https://stackoverflow.com/questions/137975/what-is-so-bad-about-singletons
+
+Singleton Swift Guide
+
+	https://developer.apple.com/documentation/swift/cocoa_design_patterns#//apple_ref/doc/uid/TP40014216-CH7-ID177
