@@ -29,8 +29,6 @@ class TodoListViewController: UITableViewController {
 
         print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
 
-
-
         loadItems()
 
     }
@@ -126,8 +124,7 @@ class TodoListViewController: UITableViewController {
             self.tableView.reloadData()
         }
 
-        func loadItems() {
-            let request : NSFetchRequest<Item> = Item.fetchRequest()
+        func loadItems(with request: NSFetchRequest<Item> = Item.fetchRequest()) {
             do {
                 itemArray = try context.fetch(request)
             } catch {
@@ -135,7 +132,21 @@ class TodoListViewController: UITableViewController {
             }
         }
 
+}
 
+// MARK: - Search Bar Methods
+extension TodoListViewController : UISearchBarDelegate{
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        let request : NSFetchRequest<Item> = Item.fetchRequest()
+        request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
+//        look at academy.realm.io/posts/nspredicate-cheatsheet/
+//        also check out nshipster.com/nspredicate
+
+        request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+
+        loadItems(with: request)
+
+    }
 
 }
 
