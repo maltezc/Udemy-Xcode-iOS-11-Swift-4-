@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269d1c7c-e7b3-4b15-ba52-43acf7d6f333" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Todoey/Data Model/DataModel.xcdatamodeld/DataModel.xcdatamodel/contents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest.xcodeproj/xcuserdata/chrismaltez.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/CoreDataTest.xcdatamodeld/.xccurrentversion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/CoreDataTest.xcdatamodeld/CoreDataTest.xcdatamodel/contents" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../19.250-CoreDataTest/CoreDataTest/CoreDataTest/ViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" beforeDir="false" afterPath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todoey.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todoey.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todoey/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todoey/Data Model/Item.swift" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../9.86-Quizzler" beforeDir="false" afterPath="$PROJECT_DIR$/../../9.86-Quizzler" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/Todoey-fnxbrfabzewnnefuaimyigpskcvl/" />
@@ -29,27 +46,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="h" value="1" />
-          <entry key="swift" value="3263" />
+          <entry key="swift" value="3300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="1" />
-          <entry key="Swift" value="3263" />
+          <entry key="Swift" value="3300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="h" value="3" />
           <entry key="plist" value="2" />
-          <entry key="swift" value="6" />
+          <entry key="swift" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ObjectiveC" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="Swift" value="5" />
+          <entry key="Swift" value="6" />
           <entry key="plist" value="2" />
         </counts>
       </usages-collector>
@@ -68,20 +85,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+            <state relative-caret-position="161">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Todoey/Data Model/Item.swift">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Todoey/AppDelegate.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="127">
+              <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+              <folding>
+                <element signature="e#146#158#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,9 +122,9 @@
       <list>
         <option value="$PROJECT_DIR$/Todoey/ViewController.swift" />
         <option value="$PROJECT_DIR$/Todoey/TodoListViewController.swift" />
-        <option value="$PROJECT_DIR$/Todoey/AppDelegate.swift" />
         <option value="$PROJECT_DIR$/Todoey/Data Model/Item.swift" />
         <option value="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" />
+        <option value="$PROJECT_DIR$/Todoey/AppDelegate.swift" />
       </list>
     </option>
   </component>
@@ -219,12 +239,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540564566370</updated>
       <workItem from="1540564568865" duration="15834000" />
-      <workItem from="1540778980038" duration="812000" />
+      <workItem from="1540778980038" duration="2084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16646000" />
+    <option name="totallyTimeSpent" value="17918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,13 +317,6 @@
     <entry file="file://$PROJECT_DIR$/Todoey/Info.plist">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todoey/AppDelegate.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Todoey/Data Model/Item.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -313,8 +326,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+        <state relative-caret-position="161">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todoey/AppDelegate.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+          <folding>
+            <element signature="e#146#158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
