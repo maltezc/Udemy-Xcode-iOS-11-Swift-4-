@@ -18,7 +18,7 @@ import CoreData
 class TodoListViewController: UITableViewController {
 
     var itemArray = [Item]()
-    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Items.plist")
+
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
     // dont UserDefaults for anything other than UserDefault settings like volume or similar.
@@ -27,25 +27,11 @@ class TodoListViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        print(dataFilePath)
-
-
-        let newItem = Item()
-        newItem.title = "Find Mike"
-        itemArray.append(newItem)
-
-        let newItem2 = Item()
-        newItem2.title = "Find Mike2"
-        itemArray.append(newItem2)
-
-        let newItem3 = Item()
-        newItem3.title = "Find Mike3"
-        itemArray.append(newItem3)
+        print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
 
 
 
-
-//        loadItems()
+        loadItems()
 
     }
 
@@ -79,7 +65,10 @@ class TodoListViewController: UITableViewController {
 //        print(itemArray[indexPath.row])
 
 
-        itemArray[indexPath.row].done = !itemArray[indexPath.row].done
+//        context.delete(itemArray[indexPath.row]) //this needs to come first ****
+//        itemArray.remove(at: indexPath.row) // This needs to come second!!!
+
+//        itemArray[indexPath.row].done = !itemArray[indexPath.row].done
 
 //        if itemArray[indexPath.row].done == false {
 //            itemArray[indexPath.row].done = true
@@ -137,19 +126,14 @@ class TodoListViewController: UITableViewController {
             self.tableView.reloadData()
         }
 
-//        func loadItems() {
-//            if let data = try? Data(contentsOf: dataFilePath!) {
-//                // ^optional binding
-//                let decoder = PropertyListDecoder()
-//                do {
-//                    itemArray = decoder.decode([Item].self, from: data)
-//                } catch {
-//                    print("Error decoding item array,  \(error)")
-//
-//                }
-//
-//            }
-//        }
+        func loadItems() {
+            let request : NSFetchRequest<Item> = Item.fetchRequest()
+            do {
+                itemArray = try context.fetch(request)
+            } catch {
+                print("Error fetching data from context \(context)")
+            }
+        }
 
 
 
