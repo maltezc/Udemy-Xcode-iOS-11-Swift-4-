@@ -6,10 +6,10 @@
 import Foundation
 import RealmSwift
 
-
-class Data: Object {
-// dynamic = allows to be monitored for change during runtime
+class Category: Object {
     @objc dynamic var name : String = ""
-    @objc var age : Int = 0
-
+    let items = List<Item>()
+//    let array : [Int] = [1,2,3]
+//    let array = Array<Int>()
+//    ^initialises an array of items
 }
