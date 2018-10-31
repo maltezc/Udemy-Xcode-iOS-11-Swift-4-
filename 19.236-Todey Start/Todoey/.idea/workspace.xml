@@ -4,11 +4,8 @@
     <list default="true" id="269d1c7c-e7b3-4b15-ba52-43acf7d6f333" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" beforeDir="false" afterPath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Todoey.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todoey.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/Data Model/DataModel.xcdatamodeld/DataModel.xcdatamodel/contents" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/Data Model/DataModel.xcdatamodeld/DataModel.xcdatamodel/contents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/Views/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/Views/Main.storyboard" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../9.86-Quizzler" beforeDir="false" afterPath="$PROJECT_DIR$/../../9.86-Quizzler" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/Todoey-fnxbrfabzewnnefuaimyigpskcvl/" />
@@ -23,7 +20,7 @@
     <session id="2105545954">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.opened" value="2" />
@@ -32,13 +29,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="h" value="1" />
-          <entry key="swift" value="5865" />
+          <entry key="swift" value="5988" />
+          <entry key="txt" value="265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="1" />
-          <entry key="Swift" value="5865" />
+          <entry key="Scratch" value="265" />
+          <entry key="Swift" value="5988" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,12 +45,13 @@
           <entry key="h" value="3" />
           <entry key="plist" value="3" />
           <entry key="swift" value="9" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ObjectiveC" value="3" />
-          <entry key="Scratch" value="1" />
+          <entry key="Scratch" value="2" />
           <entry key="Swift" value="8" />
           <entry key="plist" value="3" />
         </counts>
@@ -73,37 +73,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="139" selection-end-column="51" />
-              <folding>
-                <element signature="e#368#380#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Todoey/AppDelegate.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-              <folding>
-                <element signature="e#146#158#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding>
-                <element signature="e#157#169#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -127,10 +100,10 @@
       <find>newcateg</find>
       <find>tableview.reloadd</find>
       <find>newcate</find>
-      <find>parent</find>
       <find>loaditems</find>
       <find>delegate</find>
       <find>search bar</find>
+      <find>parent</find>
     </findStrings>
     <replaceStrings>
       <replace>loadCategories</replace>
@@ -148,6 +121,7 @@
         <option value="$PROJECT_DIR$/Todoey/AppDelegate.swift" />
         <option value="$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift" />
         <option value="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
       </list>
     </option>
   </component>
@@ -224,7 +198,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Swift" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;Swift" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -262,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540564566370</updated>
       <workItem from="1540564568865" duration="15834000" />
-      <workItem from="1540778980038" duration="19821000" />
+      <workItem from="1540778980038" duration="21211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35655000" />
+    <option name="totallyTimeSpent" value="37045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,23 +253,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1030" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="731" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.20344129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.29172716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50076103" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.35" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.35" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26027396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.24489796" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24489796" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.20821919" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -350,6 +324,16 @@
     <entry file="file://$PROJECT_DIR$/Todoey/Info.plist">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="137" column="52" lean-forward="true" selection-start-line="137" selection-start-column="52" selection-end-line="137" selection-end-column="52" />
+          <folding>
+            <element signature="e#368#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Todoey/AppDelegate.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-609">
@@ -370,13 +354,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="137" column="14" selection-start-line="137" selection-start-column="14" selection-end-line="139" selection-end-column="51" />
-          <folding>
-            <element signature="e#368#380#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
