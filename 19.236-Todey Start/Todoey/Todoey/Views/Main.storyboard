@@ -101,7 +101,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="dUn-zp-vyj">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="addButtonPressed:" destination="TrG-nH-jpp" id="Da4-H0-snb"/>
+                                <action selector="newCategory:" destination="TrG-nH-jpp" id="I24-c5-sbm"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
