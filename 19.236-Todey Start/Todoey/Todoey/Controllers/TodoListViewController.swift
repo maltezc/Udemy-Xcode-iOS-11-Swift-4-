@@ -65,6 +65,7 @@ class TodoListViewController: UITableViewController {
         if let item = todoItems?[indexPath.row] {
             do {
                 try realm.write {
+//                    realm.delete(item)
                     item.done = !item.done
                 }
             } catch {
@@ -73,23 +74,6 @@ class TodoListViewController: UITableViewController {
         }
 
         tableView.reloadData()
-
-
-//        context.delete(itemArray[indexPath.row]) //this needs to come first ****
-//        itemArray.remove(at: indexPath.row) // This needs to come second!!!
-
-//        itemArray[indexPath.row].done = !itemArray[indexPath.row].done
-
-//        if itemArray[indexPath.row].done == false {
-//            itemArray[indexPath.row].done = true
-//        } else {
-//            itemArray[indexPath.row].done = false
-//        }
-
-//        todoItems?[indexPath.row].done = !(todoItems[indexPath.row].done)
-
-//        saveitems()
-
 
         tableView.deselectRow(at: indexPath, animated: true)
 
@@ -110,6 +94,7 @@ class TodoListViewController: UITableViewController {
                      try realm.write {
                          let newItem = Item()
                          newItem.title = textField.text!
+                         newItem.dateCreated = Date()
                          currentCategory.items.append(newItem)
                      }
                  } catch {
@@ -141,31 +126,26 @@ class TodoListViewController: UITableViewController {
 }
 
 // MARK: - Search Bar Methods
-//extension TodoListViewController : UISearchBarDelegate{
-//    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-//        let request : NSFetchRequest<Item> = Item.fetchRequest()
-//
-//        let predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchBar.text!)
-////        look at academy.realm.io/posts/nspredicate-cheatsheet/
-////        also check out nshipster.com/nspredicate
-//
-//        request.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
-//
-//        loadItems(with: request, predicate: predicate)
-//
-//    }
-//
-//    public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//        if searchBar.text?.count == 0 {
-//            loadItems()
-//
-//            DispatchQueue.main.async{
-//                searchBar.resignFirstResponder()
-//            }
-//
-//        }
-//    }
-//}
+// see realm database docs. ==> academy.realm.io/posts/nspredicate-cheatsheet/
+extension TodoListViewController : UISearchBarDelegate{
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        todoItems = todoItems?.filter("title CONTAINS[cd] %@", searchBar.text!).sorted(byKeyPath: "dateCreated", ascending: true)
+
+        tableView.reloadData()
+
+    }
+
+    public func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if searchBar.text?.count == 0 {
+            loadItems()
+
+            DispatchQueue.main.async{
+                searchBar.resignFirstResponder()
+            }
+
+        }
+    }
+}
 
 
 
