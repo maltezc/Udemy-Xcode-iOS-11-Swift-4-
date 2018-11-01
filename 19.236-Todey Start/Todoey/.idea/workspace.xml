@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269d1c7c-e7b3-4b15-ba52-43acf7d6f333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Todoey/Data Model/Category.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Todoey/Data Model/Item.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" beforeDir="false" afterPath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todoey.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/AppDelegate.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/Data Model/Data.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Todoey/Data Model/DataModel.xcdatamodeld/DataModel.xcdatamodel/contents" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../9.86-Quizzler" beforeDir="false" afterPath="$PROJECT_DIR$/../../9.86-Quizzler" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/Todoey-fnxbrfabzewnnefuaimyigpskcvl/" />
@@ -37,7 +31,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="h" value="1" />
-          <entry key="swift" value="6957" />
+          <entry key="swift" value="7673" />
           <entry key="txt" value="265" />
         </counts>
       </usages-collector>
@@ -45,7 +39,7 @@
         <counts>
           <entry key="ObjectiveC" value="1" />
           <entry key="Scratch" value="265" />
-          <entry key="Swift" value="6957" />
+          <entry key="Swift" value="7673" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,7 +63,7 @@
       <usages-collector id="statistics.appcode.reveal" />
       <usages-collector id="statistics.appcode.build">
         <counts>
-          <entry key="buildservice" value="22" />
+          <entry key="buildservice" value="27" />
           <entry key="xcodebuild" value="18" />
         </counts>
       </usages-collector>
@@ -83,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="354">
+              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
               <folding>
                 <element signature="e#368#380#0" expanded="true" />
               </folding>
@@ -119,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+            <state relative-caret-position="103">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#157#169#0" expanded="true" />
               </folding>
@@ -168,6 +162,8 @@
       <find>loaditems</find>
       <find>newitem</find>
       <find>func load</find>
+      <find>loadcatego</find>
+      <find>loadcate</find>
     </findStrings>
     <replaceStrings>
       <replace>loadCategories</replace>
@@ -329,12 +325,12 @@
       <updated>1540564566370</updated>
       <workItem from="1540564568865" duration="15834000" />
       <workItem from="1540778980038" duration="21211000" />
-      <workItem from="1540991870536" duration="3647000" />
+      <workItem from="1540991870536" duration="6732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40692000" />
+    <option name="totallyTimeSpent" value="43777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Todoey/Controllers/CategoryViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        <state relative-caret-position="103">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#157#169#0" expanded="true" />
           </folding>
@@ -473,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Todoey/Controllers/TodoListViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="354">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
           <folding>
             <element signature="e#368#380#0" expanded="true" />
           </folding>
