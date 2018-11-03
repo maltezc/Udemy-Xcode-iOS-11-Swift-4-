@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="802be025-5b85-4e09-bdca-152e8afa8ef6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" beforeDir="false" afterPath="$PROJECT_DIR$/../../16.178-Flash-Chat-iOS11-master/Flash-Chat-iOS11-COMPLETED" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeaFood.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/SeaFood.xcodeproj/project.xcworkspace/xcuserdata/chrismaltez.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeaFood/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/SeaFood/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeaFood/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/SeaFood/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeaFood/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/SeaFood/ViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../9.86-Quizzler" beforeDir="false" afterPath="$PROJECT_DIR$/../../9.86-Quizzler" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/SeaFood-frzwukmembdxcteyggfxcwtbsmdz/" />
@@ -167,16 +163,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541220450170</updated>
-      <workItem from="1541220453229" duration="5587000" />
+      <workItem from="1541220453229" duration="5854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5587000" />
+    <option name="totallyTimeSpent" value="5854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="846" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
@@ -184,8 +179,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.17040816" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32959184" />
+      <window_info anchor="bottom" id="Messages" weight="0.17040816" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
